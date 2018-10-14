@@ -37,10 +37,15 @@
  *    + if all cards have matched, display a message with the final score (put this functionality in another function that you call from this one)
  */
 const deck=document.querySelector('.deck');
+let toggleCards = [];
 deck.addEventListener('click', function(event){
   const clickTarget= event.target;
-  if (clickTarget.classList.contains('card')){
+if (clickTarget.classList.contains('card') && toggleCards.length<2){
     clickTarget.classList.toggle('open');
     clickTarget.classList.toggle('show');
+    toggleCards.push(clickTarget);
+    if (toggleCards.length===2){
+    console.log('2 cards!');
+    }
   }
 });
