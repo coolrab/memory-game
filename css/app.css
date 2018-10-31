@@ -17,7 +17,8 @@ body {
 }
 
 body {
-    background: #ffffff url('../img/geometry2.png'); /* Background pattern from Subtle Patterns */
+    background: #ffffff url('../img/geometry2.png');
+    /* Background pattern from Subtle Patterns */
     font-family: 'Coda', cursive;
 }
 
@@ -32,6 +33,7 @@ h1 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
 }
+
 
 /*
  * Styles for the deck of cards
@@ -81,14 +83,24 @@ h1 {
     font-size: 33px;
 }
 
+
 /*
  * Styles for the Score Panel
  */
 
 .score-panel {
-    text-align: left;
-    width: 345px;
+    width: 650px;
+    height: 30px;
     margin-bottom: 10px;
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 900;
+    font-size: 18px;
+    background: linear-gradient(160deg, #02ccba 30%, #aa7ecd 100%);
+    border-radius: 5px;
 }
 
 .score-panel .stars {
@@ -106,4 +118,65 @@ h1 {
 .score-panel .restart {
     float: right;
     cursor: pointer;
+}
+
+.modal-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.438);
+}
+
+.hide {
+    display: none;
+}
+
+.modal-body {
+    position: relative;
+    width: 400px;
+    top: 50%;
+    left: 50%;
+    background: linear-gradient(160deg, #02ccba 10%, #aa7ecd 100%);
+    transform: translate(-50%, -40%);
+    border-radius: 9px;
+}
+
+.modal-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1.5em;
+    border-bottom: 1px solid gray;
+}
+
+.modal-title {
+    font-weight: 400;
+    font-size: 2em;
+}
+
+.modal-stats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 1em;
+    border-bottom: 1px solid gray;
+}
+
+.modal-buttons {
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+.modal-button {
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 9px;
+    font-weight: 400;
+    font-size: 1.25em;
 }
