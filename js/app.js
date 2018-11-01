@@ -56,9 +56,10 @@ deck.addEventListener('click', function(event) {
         toggleCard(clickTarget);
         addToggleCard(clickTarget);
         if (toggleCards.length === 2) {
-            checkForMatch(clickTarget);
             addMove();
             checkScore();
+            checkForMatch(clickTarget);
+
         }
     }
 })
@@ -82,6 +83,8 @@ function checkForMatch(clickTarget) {
         matched++;
         if (matched === TOTAL_PAIRS) {
             gameOver();
+
+
 
         }
     } else {
@@ -184,6 +187,7 @@ document.querySelector('.restart').addEventListener('click', resetGame)
 
 function resetGame() {
     matched = 0;
+    toggleCards = [];
     resetClockAndTime();
     resetMoves();
     resetStars();
