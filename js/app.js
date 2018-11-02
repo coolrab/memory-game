@@ -112,7 +112,7 @@ function addMove() {
 }
 
 function checkScore() {
-    if (moves === 13 || moves === 17 || moves === 21 || moves === 26 || moves === 33) {
+    if (moves === 13 || moves === 17 || moves === 21 || moves === 30) {
         hideStar();
     }
 }
