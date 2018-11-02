@@ -1,13 +1,51 @@
-# memory-game
-UDACITY-nano-degree-project2
+# Memory-Game
 
-Memory game is a simple game that require players to match similar cards, participants need to find a match for 8 pairs of images by using their memory.
+Memory game is a mandatory project for the Udacity Nanodegree Front-End Web Developer Course. In this game players are required to match similar cards by using their memory.
 
-## About the concept
+## Table of Contents
 
-This is mandatory project for Udacity Front-End Web Developer Course, requires of using HTML, CSS, JavaScript to run the game.
+* [Goal](#goal)
+* [Game Instructions](#game-instructions)
+* [Game Dependencies](#game-dependencies)
+* [Functionalities](#functionalities)
+* [Contribution](#contribution)
+* [Acknowledgment](#acknowledgment)
 
-## Contributing
+## Goal
+
+The main goal of this game is  to match similar cards by using participants memory.  They need to find a match for 8 pairs of icons to end the game.
+
+## Game Instructions
+
+- Participants need to click on a card to start the game and check the first icon.
+- Then click on the second card and check the match.
+- If the icon doesn't matched then remember it and try to match with the next one.
+- As soon all the icons are matched the score card is appeared with the performance details (**Time, Moves and Stars**).
+- Stars are the main performance indicator,  decrease based on the moves take to finis the game.
+- To achieve all the **Stars** one must finish the game by 16 moves.
+
+## Game Dependencies
+
+This game is dependent on the following resources:
+- HTML
+- CSS
+- JavaScript
+- Bootstrap
+- Font-awesome
+- Google Fonts
+
+## Functionalities
+
+- Event Listeners
+- Game Timer
+- Moves Counter
+- Score Rating
+- Restart Icon
+- Score Card
+- Cancel Button
+- Replay Button
+
+## Contribution
 
 You are **welcome** to contribute to this project.
 
@@ -17,17 +55,11 @@ Here are some ways you can contribute:
 - by suggesting new features
 - by writing or editing documentation
 - by writing specifications
-- by writing code ( fix or add js files, add comments, modifiyng styles)
+- by writing code ( fix or add js files, add comments, modifying styles)
 
+## Acknowledgment
 
-### NOTES for Udacity Students
-
-If you are one of Udacity students:
-- Feel free to copy this project and use it, _BUT_ remember that the main **GOAL** is to learn how you can do projects by yourself.
-- This is not the only or even best one, there are many ways to achieve the same result by different piece of codes.
-- Try to understand and you can find a better way for sure.
-
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
+- Udacity community & mentors
 
 #### THANK YOU ...
 
