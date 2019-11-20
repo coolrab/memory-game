@@ -57,9 +57,7 @@ Here are some ways you can contribute:
 - by writing specifications
 - by writing code ( fix or add js files, add comments, modifying styles)
 
-## Acknowledgment
 
-- Udacity community & mentors
 
 #### THANK YOU ...
 
