@@ -1,6 +1,6 @@
 # Memory-Game
 
-Memory game is a mandatory project for the Udacity Nanodegree Front-End Web Developer Course. In this game players are required to match similar cards by using their memory.
+ In this game players are required to match similar cards by using their memory.
 
 ## Table of Contents
 
